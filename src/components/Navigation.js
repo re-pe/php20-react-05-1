@@ -10,6 +10,7 @@ export default function Navigation() {
                 <a className="p-2 text-dark" href="0#">Example3</a>
                 <a className="p-2 text-dark" href="0#">Example4</a>
             </nav>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a className="btn btn-outline-primary" href="#">Sign up</a>
         </div>
     )
