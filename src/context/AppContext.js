@@ -13,6 +13,8 @@ const AppContext = ({ children }) => {
     );
 };
 
+AppContext.displayName = "AppContext";
+
 export default AppContext;
 
 export const useAppContext = () => useContext(context);

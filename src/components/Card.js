@@ -9,7 +9,6 @@ export default function Card({ name, email, id, image, location }) {
     const incrLikes = () => {
         setCardLikes(cardLikes + 1);
         setAppLikes(appLikes + 1)
-
     }
 
     return (
